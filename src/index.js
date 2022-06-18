@@ -1,7 +1,9 @@
 // In src/index.js
+//import express
 const express = require("express");
+//import body-parser
 const bodyParser = require("body-parser");
-
+//import router
 const v1WorkoutRouter = require("./v1/routes/workoutRoutes")
 
 const app = express();
